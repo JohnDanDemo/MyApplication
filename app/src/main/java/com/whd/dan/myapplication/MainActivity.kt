@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         StringUtil.INSTANCE.formatInt(1)
         StringUtil.INSTANCE.isEmpty("whd")
+        StringUtil.INSTANCE.isEmpty("HHHH")
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
