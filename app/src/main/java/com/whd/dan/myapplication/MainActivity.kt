@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
         StringUtil.INSTANCE.isEmpty("HHHH")
         StringUtil.INSTANCE.isEmpty("HHHH")
         StringUtil.INSTANCE.isEmpty("HHHH")
+        StringUtil.INSTANCE.isEmpty("whd")
+        StringUtil.INSTANCE.isEmpty("whd")
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
